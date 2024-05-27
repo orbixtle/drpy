@@ -1,21 +1,4 @@
-#!/usr/local/opt/python@3.8/bin/python3
 # -*- coding: utf-8 -*-
-
-__author__ = 'DrPython3'
-__date__ = '2021-12-04'
-__version__ = '1.1'
-__contact__ = 'https://github.com/DrPython3'
-
-'''
---------------------------------------------
-Functions for Reading MX Records of a Domain
---------------------------------------------
-
-Part of << Mail.Rip V3: https://github.com/DrPython3/MailRipV3 >>
-'''
-
-# [IMPORTS]
-# ---------
 
 import sys
 import socket
