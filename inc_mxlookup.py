@@ -39,5 +39,3 @@ def get_host(default_timeout, email):
         except:
             break
     return found, smtp_host
-
-# DrPython3 (C) 2021 @ GitHub.com
