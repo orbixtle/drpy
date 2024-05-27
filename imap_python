@@ -1,21 +1,4 @@
-#!/usr/local/opt/python@3.8/bin/python3
 # -*- coding: utf-8 -*-
-
-__author__ = 'DrPython3'
-__date__ = '2021-12-05'
-__version__ = 'BETA(1.1)'
-__contact__ = 'https://github.com/DrPython3'
-
-'''
----------------------------------------------
-Functions for Checking Mailpass Combos (IMAP)
----------------------------------------------
-
-Part of << Mail.Rip V3: https://github.com/DrPython3/MailRipV3 >>
-'''
-
-# [IMPORTS]
-# ---------
 
 import sys
 import ssl
@@ -253,4 +236,3 @@ def imapchecker(default_timeout, target):
         result(output_checked, str(f'{new_target};result=check failed'))
         return False
 
-# DrPython3 (C) 2021 @ GitHub.com
